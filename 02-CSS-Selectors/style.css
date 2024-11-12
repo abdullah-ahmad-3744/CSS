@@ -28,3 +28,11 @@ text-align: center;
 #third-paragraph {
     color: yellow;
 }
+
+/* Class Selector in CSS */
+.class-selector-container{
+    background-color: blue;
+}
+.class-selector {
+    color: white;
+}
