@@ -36,3 +36,11 @@ text-align: center;
 .class-selector {
     color: white;
 }
+
+/* Grouping Selector In CSS */
+.css-grouping-selector {
+    background-color: white;
+}
+h2 , h4 , h5 , h6 {
+    color: red;
+}
