@@ -29,13 +29,13 @@ body {
     border: 3px solid red;
     width: 150px;
     height: 150px;
-    background: linear-gradient(45deg, #ff6b6b, #f8e473);
+    background-color: White;
     transform-style: preserve-3d; 
     animation: rotate3D 5s infinite linear;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
     font-size: 25px;
     text-align: center;
   }
