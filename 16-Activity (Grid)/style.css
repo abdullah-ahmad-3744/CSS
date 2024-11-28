@@ -93,3 +93,15 @@ main img {
     border-radius: 10px;
     margin-top: 20px;
 }
+/* Footer section */
+footer {
+    grid-area: footer;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}
