@@ -119,3 +119,41 @@
   header nav ul li a:hover {
     color: var(--accent-color);
   }
+  /* Hero Section */
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(135deg, #1abc9c, #16a085);
+    color: var(--white);
+    padding: 100px 0;
+    text-align: center;
+    box-shadow: var(--shadow);
+    margin-top: 60px;
+  }
+  
+  .hero h2 {
+    font-size: var(--font-size-heading);
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: var(--font-size-subheading);
+    margin-bottom: 30px;
+  }
+  
+  .hero button {
+    background-color: var(--accent-color);
+    color: var(--white);
+    border: none;
+    padding: var(--button-padding);
+    font-size: var(--font-size-base);
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: background-color var(--transition-speed), transform var(--transition-speed);
+  }
+  
+  .hero button:hover {
+    background-color: #c0392b;
+    transform: translateY(-5px);
+  }
