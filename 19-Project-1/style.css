@@ -157,3 +157,21 @@
     background-color: #c0392b;
     transform: translateY(-5px);
   }
+  /* About Section */
+  .about {
+    background-color: var(--white);
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .about h3 {
+    font-size: var(--font-size-subheading);
+    margin-bottom: 15px;
+    color: var(--primary-color);
+  }
+  
+  .about p {
+    font-size: var(--font-size-paragraph);
+    max-width: 800px;
+    margin: 0 auto;
+  }
