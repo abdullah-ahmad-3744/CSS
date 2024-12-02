@@ -217,3 +217,26 @@
     font-size: var(--font-size-paragraph);
     color: var(--dark);
   }
+  /* Call to Action Section */
+  .cta {
+    background-color: var(--primary-color);
+    padding: 60px 0;
+    text-align: center;
+    color: var(--white);
+  }
+  
+  .cta button {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    padding: var(--button-padding);
+    font-size: var(--font-size-base);
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color var(--transition-speed), transform var(--transition-speed);
+  }
+  
+  .cta button:hover {
+    background-color: var(--accent-color);
+    transform: translateY(-5px);
+  }
