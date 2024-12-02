@@ -175,3 +175,45 @@
     max-width: 800px;
     margin: 0 auto;
   }
+   /* Services Section */
+   .services {
+    background-color: #f0f0f0;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .services h3 {
+    font-size: var(--font-size-subheading);
+    margin-bottom: 40px;
+    color: var(--primary-color);
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  
+  .service-card {
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    width: 250px;
+    transition: transform var(--transition-speed);
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .service-card h4 {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-size: var(--font-size-paragraph);
+    color: var(--dark);
+  }
