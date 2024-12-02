@@ -240,3 +240,14 @@
     background-color: var(--accent-color);
     transform: translateY(-5px);
   }
+   /* Footer Section */
+   footer {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: var(--font-size-paragraph);
+  }
