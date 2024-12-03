@@ -110,3 +110,45 @@ footer {
     text-align: center;
     padding: 20px;
 }
+/* Responsive Styles with Media Queries */
+
+/* For mobile devices (screen width < 600px) */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 80px 20px;
+    }
+
+    .hero h2 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1.1em;
+    }
+
+    .about h2 {
+        font-size: 1.8em;
+    }
+
+    .about p {
+        font-size: 1.1em;
+    }
+}
