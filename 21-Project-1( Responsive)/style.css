@@ -270,6 +270,12 @@
     .hero p {
         font-size: 0.9rem;
     }
+    .service-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
     .cta {
         padding: 40px 0;
