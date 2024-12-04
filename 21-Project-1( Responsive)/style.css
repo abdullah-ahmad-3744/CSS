@@ -251,3 +251,36 @@
   footer p {
     font-size: var(--font-size-paragraph);
   }
+  /* 1. Mobile Devices - Small Phones (Portrait) */
+@media (max-width: 480px) {
+    /* Devices like: iPhone 5/5S/SE, iPhone 6/7/8, Galaxy S5, Moto E, etc. */
+
+    header .logo h1 {
+        font-size: 1.2rem;
+    }
+
+    .hero {
+        padding: 40px 0;
+    }
+
+    .hero h2 {
+        font-size: 1.4rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .cta {
+        padding: 40px 0;
+    }
+
+    .cta button {
+        padding: 12px 25px;
+        font-size: 0.9rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
